@@ -1,10 +1,10 @@
-Through this scheme of work, students will learn:
+A travers ce travail, les élèves apprennent :
 
-- What a Raspberry Pi is, what its main features are, and how to set up and use one.
-- How to program a Raspberry Pi to act as a chat robot.
-- What is meant by artificial intelligence, in particular relating to the Turing test.
-- The following computer science concepts:
- - Sequencing
- - Debugging
- - User input
- - Print statements
+- Ce que c'est un Raspberry Pi, quelles sont ses fonctionnalités principales, et comment le mettre en marche et l'utiliser.
+- Comment programmer un Raspberry Pi pour fonctionner comme un robot tchat.
+- Ce que signifie l'intelligence artificielle, surtout en relation avec le test Turing.
+- Les concepts suivants de science informatique :
+ - Séquençage
+ - Débogage
+ - Saisie entrée utilisateur
+ - Déclarations "Print"

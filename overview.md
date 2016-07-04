@@ -1,3 +1,3 @@
-This scheme of work has been designed as an introduction to text-based programming using Python on the Raspberry Pi. By the end of all the lessons, students will have created an interactive chat bot and will have been introduced to the computer science concept of artificial intelligence.
+Ce parcours a été conçu comme une introduction à la programmation textuelle en Python avec le Raspberry Pi. Au cours des leçons, les élèves créent un robot-tchat interactif et découvrent ainsi le concept en science informatique de l'intelligence artificielle.
 
-This scheme of work is specifically targeted towards introductory KS2 Computing, although these lessons could be used as a wider scheme of work at KS3. This has been developed in harmony with the new Computing curriculum in the UK.
+Ce parcours avait pour objectif initialement d'être une introduction à l'informatique pour le niveau K2 dans le système éducatif anglais, même si ces leçons pouvaient être utilisées également plus largement au niveau K3. Ceci a été développé pour correspondre au nouveaux programmes scolaires d'Informatique au Royaume Uni.

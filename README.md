@@ -54,16 +54,16 @@ Voir aussi [instructions de mise en place pour l'enseignant](teacher-instruction
 
 ## Leçons
 
-- [Leçon 1: Comment les ordinateurs pensent-ils ?](lesson-1/plan.md)
-- [Leçon 2: Les ordinateurs peuvent-ils penser par eux-mêmes ?](lesson-2/plan.md)
-- [Leçon 3: Make a Chatting Robot](lesson-3/plan.md)
+- [Leçon 1: Comment les ordinateurs pensent-ils ?](lesson-1/lesson.md)
+- [Leçon 2: Les ordinateurs peuvent-ils penser par eux-mêmes ?](lesson-2/lesson.md)
+- [Leçon 3: Créer un Tchat Robot](lesson-3/lesson.md)
 
 ## Licence
 
-Unless otherwise specified, everything in this repository is covered by the following licence:
+Sauf spécification expresse, tout le contenu de ce répertoire est fourni sous la licence suivante :
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Turing Test Lessons*** by the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Le Test de Turing*** de la [Fondation Raspberry Pi](http://www.raspberrypi.org) est fourni sous la licence [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Based on a work at https://github.com/raspberrypilearning/turing-test-lessons
+D'après un travail paru sur https://github.com/raspberrypilearning/turing-test-lessons

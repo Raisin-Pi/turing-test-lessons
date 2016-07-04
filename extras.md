@@ -1,2 +1,2 @@
-- A headphone splitter connected to the Raspberry Pi audio jack per pair (from lesson 3 onwards)
-- A pair of headphones connected to the splitter per student (from lesson 3 onwards)
+- Adaptateur doubleur d'audio par paire d'élèves connecté à la sortie prise jack du Raspberry Pi (à partir de leçon 3)
+- Un casque/écouteurs par élève branché à l'adaptateur (à partir de leçon 3)

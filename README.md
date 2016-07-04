@@ -1,60 +1,62 @@
-# The Turing Test
+# Le Test de Turing
 
 ![](cover.png)
 
-This scheme of work has been designed as an introduction to text-based programming using Python on the Raspberry Pi. By the end of all the lessons, students will have created an interactive chat bot and been introduced to the computer science concept of artificial intelligence.
+Ce schéma de travail a été conçu comme une introduction à la programmation, basée sur le texte et en utilisant Python sur le Raspberry Pi. À la fin de toutes les leçons, les élèves auront créés un tchat robot interactif et auront été initiés à la notion d'informatique de l'intelligence artificielle.
 
-This scheme of work is specifically targeted towards introductory KS2 Computing, although these lessons could be used as a wider scheme of work at KS3. This has been developed in harmony with the new Computing curriculum in the UK.
-
-##Learning outcomes:
-
-Over the course of three lessons, students will learn:
-
-- What a Raspberry Pi is, what its main features are, and how to set up and use one.
-- How to program a Raspberry Pi to act as a chat robot.
-- What is meant by artificial intelligence, in particular relating to the Turing test.
-- The following computer science concepts:
-	- Sequencing
-	- Debugging
-	- User input
-	- Print statements
+Ce schéma de travail cible spécifiquement les enfants de 7 à 11 ans, bien que ces leçons puissent être utilisées de manière plus large pour les enfants de 11 à 14 ans.
 
 
-##Computing Programme of Study Met
+## Ce que les élèves apprendront :
 
-###KS2:
 
-- Design, write and debug programs that accomplish specific goals; solve problems by breaking them into smaller parts. Select, use and combine a variety of software on a range of digital devices to design and create a range of programs.
-- Use sequence, selection and repetition in programs; work with variables and various forms of input and output
-- Use logical reasoning to explain how some simple algorithms work; detect and correct errors in algorithms and programs
+Grâce à ce schéma de travail, les élèves auront appris :
 
-###KS3:
+- A utiliser les fonctions du Raspberry Pi : comment l'installer et exploiter ses principales caractéristiques
+- A programmer un Raspberry Pi pour qu'il agisse comme un tchat robot
+- Le concept de l'intelligence artificielle, en particulier concernant le test de Turing
+- D'autres concepts informatiques tel que :
+	- le séquençage
+	- le débogage
+	- l'instruction utilisateur
+	- les déclarations "print"
 
-- Use two or more programming languages, at least one of which is textual, to solve a variety of computational problems.
 
-[National Curriculum Computing Programmes of Study](https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study#key-stage-3)
+## Contenu du programme d'études  
 
-##Resources
+### Pour les 7 à 11 ans :
 
-For the majority of the lesson, it is suggested that work is carried out by students on a Raspberry Pi each or in pairs. Each student or pair should have access to the standard equipment described below:
+- Concevoir, écrire et déboguer des programmes qui permettent de réaliser des objectifs spécifiques. Résoudre les problèmes en les décomposant en parties plus petites. Sélectionner, utiliser et combiner une variété de logiciels sur une gamme d'appareils numériques pour concevoir et créer une gamme de programmes.
+- Utiliser la séquence, la sélection et la répétition dans les programmes; travailler avec des variables et diverses formes d'entrée et de sortie.
+- Utiliser le raisonnement logique pour expliquer comment certains algorithmes simples fonctionnent, détecter et corriger les erreurs dans les algorithmes et les programmes.
 
-- A Raspberry Pi per pair
-- The latest NOOBS SD card with Raspbian installed per pair
-- 'espeak' downloaded and installed on each SD card
-- A keyboard and mouse connected to the Raspberry Pi per pair
-- A monitor connected to the Raspberry Pi per pair
-- A headphone splitter connected to the Raspberry Pi audio jack per pair (from lesson 3 onwards)
-- A pair of headphones connected to the splitter per student (from lesson 3 onwards)
 
-*Note: These lessons will use Python 3*.
+### Pour les 11 à 14 ans :
 
-See the [teacher setup instructions](teacher-instructions.md) for more information.
+- Utiliser deux ou plusieurs langages de programmation, au moins un textuel, pour résoudre une variété de problèmes de calcul.
 
-##Lessons
 
-- [Lesson 1: How do Computers Think?](lesson-1/plan.md)
-- [Lesson 2: Can Computers Think for Themselves?](lesson-2/plan.md)
-- [Lesson 3: Make a Chatting Robot](lesson-3/plan.md)
+## Ressources
+
+Pour la grande partie de la leçon, il est suggéré que les activités soient effectuées par des élèves seul ou en binome avec un Rapsberry Pi. Chaque élève ou couple devrait avoir accès au matériel décrits ci-dessous :
+
+- Un Raspberry Pi par paire d'élèves
+- La dernière version de NOOBS sur une carte SD avec l'OS Raspbian installé
+- 'espeak' téléchargé et installé sur chaque carte SD
+- Un clavier et souris connecté au Raspberry Pi
+- Un écran connecté au Raspberry Pi
+- Un adaptateur doubleur de sortie audio connecté à la prise jack du Raspberry Pi (à partir de leçon 3)
+- Un casque/écouteurs branché à l'adaptateur par élève (à partir de leçon 3)
+
+*Note: Ces leçons utilisent Python 3*.
+
+Voir aussi [instructions de mise en place pour l'enseignant](teacher-instructions.md) pour plus d'informations.
+
+## Leçons
+
+- [Leçon 1: Comment les ordinateurs pensent-ils ?](lesson-1/plan.md)
+- [Leçon 2: Les ordinateurs peuvent-ils penser par eux-mêmes ?](lesson-2/plan.md)
+- [Leçon 3: Make a Chatting Robot](lesson-3/plan.md)
 
 ## Licence
 

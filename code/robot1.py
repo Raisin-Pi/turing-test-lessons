@@ -1,20 +1,20 @@
-# My Python Program by ...
+# Mon Programme en Python par ...
 import os, time
 
 def robot(text):
     os.system("espeak '" + text + "'")
 
-robot("Hello")
+robot("Bonjour")
 
 time.sleep(1)              
 
-robot('What is your name')
-name = input('What is your name: ')           
-robot("Nice to meet you " + name)
+robot('Quel est votre prénom')
+prenom = input('Quel est votre prénom : ')           
+robot("Enchanté de faire votre connaissance " + prenom)
 
 time.sleep(1)
 
-robot("How old are you")
-age = input('How old are you: ')
-robot("You do not look like you are aged " + age)
+robot("Vous avez quel âge")
+age = input('Vous avez quel âge: ')
+robot("Vous n'avez pas l'air d'avoir " + age "ans")
 

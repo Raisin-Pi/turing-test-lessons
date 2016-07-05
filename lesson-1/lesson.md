@@ -1,81 +1,82 @@
-# Lesson 1 - How Do Computers Think? 
+# Leçon 1 - Comment les ordinateurs pensent-ils ?
 
-##Introduction
+## Introduction
 
-How do computers think? In this lesson, students will consider how computers and robots need to follow a sequence of instructions to complete a task. Much of this lesson is dedicated to getting students using a Raspberry Pi for the first time, logging in, accessing Python 3 or IDLE3, and typing a small sequence of instructions to make a shape.
+Comment les ordinateurs pensent-ils ? Dans cette leçon, les élèves étudieront de quelle manière les ordinateurs et les robots suivent une séquence d'instructions pour accomplir une tâche. Cette leçon pousse principalement les élèves à découvrir le Raspberry Pi, se connecter, accéder à Python 3 ou IDLE3, et à taper une petite séquence d'instructions pour créer une forme.
 
-## Learning objectives
+## Objectifs de l'exercice
 
-- Know that computers follow a sequence of instructions to make something happen.
-- Be able to set up a Raspberry Pi, and give a set of instructions in Python to make a shape.
+-	Rendre compte que les ordinateurs suivent une séquence d'instruction pour réaliser quelque chose.
+-	Être en mesure d'installer un Raspberry Pi et de donner un ensemble d'instructions en Python pour en faire une forme.
 
 
-## Learning outcomes
+## Résultats de l'exercice
 
-###All students are able to:
+### Les élèves seront capables de :
 
-- Know that computers run programs that are a sequence of instructions to make something happen. 
-- Write a simple program. 
+- Savoir que les ordinateurs exécutent des programmes qui sont des séquences d'instructions pour réaliser quelquchose.  
+- Ecrire un programme simple. 
 
-###Most students are able to:
+### La plupart des élèves seront capables de :
 
+-	Comprendre que Python est un langage de programmation informatique.
+-	Écrire un programme Python simple et expliquer une séquence.
 - Know that Python is a computer programming language.  
 - Write a simple Python program and explain the sequence it is following.
 
-###Some students are able to:
+### Certains élèves seront capables de :
 
-- Write a program to create a more complex shape.
+-	Écrire un programme pour créer une forme plus complexe.
+
+## Résumé de la leçon
+
+-	Introduction aux parties physiques de base d'un Raspberry Pi.
+-	Démonstration que le Raspberry Pi peut se comporter comme un ordinateur traditionnel.
+-	Le premier programme Python.
 
 
-## Lesson summary
+## Démarrage
 
-- An introduction to the basic physical parts of a Raspberry Pi
-- A demonstration that the Raspberry Pi can behave like a traditional computer
-- The first Python program
+Tout d'abord, nommez 3 ou 4 élèves en leur demandant d'agir comme des robots puis divisez les élèves restants en 3 ou 4 équipes. Chaque équipe dispose de son propre « robot » dans une « course » pour voir qui arrivera à le contrôler à travers la salle de classe. Expliquez aux « robots » qu'ils ne doivent suivre que les instructions qui leur sont données par leur équipe. Puis, commencez la course. Tout au long de la course, veillez à ce que les élèves utilisent des instructions comme « 10 pas en avant » et « tournez à 90 degrés vers la droite ».
 
-## Starter
+A la fin de la course, discutez des problèmes que les équipes ont rencontrés en demandant à leur robot de suivre leurs instructions. Prolongez ce questionnement par le fait que le robot ne puisse pas prendre de décisions par lui-même, et donc que les élèves doivent se montrer très précis sur les directives données.
 
-First, nominate three or four students to act as robots, then divide the remaining students into three or four teams. Each team are in a race to see who can get a 'robot' around the classroom or 'maze'. Note that this could be an outdoor task. Explain to the 'robots' that they are to play dumb and only follow the instructions they are given. Then, begin the race.
+Expliquez qu'un ordinateur fonctionne en exécutant des instructions l'une après l'autre dans un ordre spécifique. Un ordre donné d'instructions est appelé un programme. Chaque programme s'exécute avec un contrôle de flux donné, décrivant quelle instruction s’exécute à tel instant et quelle sera la prochaine.
 
-Throughout the race, ensure that students are using instructions like "step forward 10 paces" or "turn 90 degrees to the right".
 
-After the race has been won, discuss any problems the teams encountered getting their robot to follow their instructions. Draw out through questioning that the robot could not make decisions for itself, and so the students had to be very specific about turns and steps.
+## Déroulement de l’exercice
 
-Explain that a computer works by executing statements one after another in a specific order. A given order of statements is called a **program**. Each program executes with a given **control flow**; this describes which statement we are executing, and what the next statement will be.
+1.	Ayez un Raspberry Pi déjà connecté avec le programme de tchat robot lancé. Tenez la carte Raspberry dans votre main et demandez aux élèves ce qu'ils pensent ce que c'est. Expliquez-leur que c'est en fait un ordinateur et que vous allez en faire quelque chose de spécial dans les leçons à venir. Au lieu de lancer des applications et des jeux déjà existants, nous allons apprendre à écrire notre propre logiciel pour créer un robot qui discute avec nous.
 
-## Main development
+2.	Commencez avec toutes les parties du Raspberry Pi sur une table: clavier, souris, haut-parleur, carte mémoire, alimentation, moniteur, câble et bien sûr le Raspberry Pi ! Demandez aux élèves de nommer et de décrire chaque composant que vous connectez au Raspberry Pi. Enfin, mettez sous tension et regardez-le démarrer. Une démonstration alternative serait de laisser de côté la carte mémoire et de tenter de démarrer le Pi, ce qui échouera. Vous pouvez ensuite décrire la carte mémoire comme quelque chose qui contient des instructions pour dire au Raspberry Pi comment démarrer. Tous les Raspberry Pi doivent être démarrés et en attente sur l'écran de connexion.
 
-1. Have a demonstration Raspberry Pi already connected and the final chatting robot program running. Hold up a Raspberry Pi board and ask the students what they think it is. Explain that it’s actually a computer and that in the coming lessons we’re going to do something special with it. Instead of running apps and games other people have created for us, we’re going to learn to write our own software to make a robot that chats to us.
+3.	Demander aux élèves de mettre en place leur équipement Raspberry Pi, de l'
+allumer et de se connecter à leur Pi en utilisant le nom d'utilisateur `pi` et le mot de passe `raspberry`.
 
-2. Start with all the parts of the Raspberry Pi on a table: keyboard, mouse, speaker, memory card, power supply, monitor, monitor cable and the Raspberry Pi itself. Ask the class to name and describe each component as you connect it to the Raspberry Pi in front of the class. Finally, plug in the power and watch it boot up. An alternative demonstration would be to leave out the memory card and attempt to boot the Pi, which will fail. You can then describe the memory card as something that contains instructions to tell the Raspberry Pi how to start. The Raspberry Pis should all be booted and sitting on the login prompt waiting for authentication.
+	**A noter : les élèves ne verront pas le texte quand ils tapent le mot de passe mais vous pouvez les assurer que ça marche. Pourquoi, pensent-ils, que c'est le cas ? Incdice : qu'est ce qu'il peut arriver si quelqu'un regardait au-dessus de leur épaule ?**
 
-2. Ask students to set up their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
+4.	Ensuite, les élèves doivent charger l'environnement graphique en tapant `startx`. Une fois que le bureau est chargé, montrer aux élèves comment ouvrir **Python 3** ou **IDLE3** en cliquant sur le menu principal **Main Menu**, puis la programmation **Programming** et la sélection de **Python 3**.
 
-	**Note that students will not see any text when typing the password but assure them it is working. Why do they think this might be the case? Hint: what might happen if someone was looking over their shoulder?**
-	
-3. Next, students should load the graphical environment by typing `startx`. Once the desktop has loaded, show students how to open **Python 3** or **IDLE3** by clicking on the **Main Menu** followed by **Programming** and selecting **Python 3**.
-	
-	**Note that this series of lessons uses Python 3. If students run IDLE then their code may not run.**
+	**A noter : cette série de leçons utilise Python 3. Si les élèves lancent IDLE il est possible que leur code ne s'exécute pas.**
 
-4. Explain to students that **Python 3** or **IDLE3** is an application or environment that allows you to write a simple program using the programming language **Python**. It allows you to write, edit and run code. 
+5.	Expliquez aux élèves que **Python 3** ou **IDLE3** est une application ou un environnement qui vous permet d'écrire un programme simple en utilisant le langage **Python** de programmation. Il vous permet d'écrire, éditer et exécuter du code.
 
-5. Show students how to draw a shape by typing a sequence of instructions, line by line. See the [Student Worksheet](worksheet.md) for the steps required to complete this task.
+6.	Montrer aux élèves comment dessiner une forme en tapant une séquence d'instructions, ligne par ligne. Voir la [Fiche de Travail](worksheet.md) pour les étapes nécessaires à l’exécution de cette tâche.
 
-6. Ask students to shut down their Raspberry Pis by clicking on the **Shut Down** icon on the desktop. 
+7.	Demandez aux élèves de fermer leur Raspberry Pi en cliquant sur l'icône « Arrêter » **Shut Down** qui se trouve sur le bureau.
 
-## Plenary
+## Présentation en classe
 
-Write the following list of words on the board:
+Ecrivez la liste suivante de mots sur le tableau :
 
-- Instructions
-- Sequence
-- Raspberry Pi
-- Python
-- IDLE3
+-	Instructions
+-	Séquence
+-	Raspberry Pi
+-	Python
+-	IDLE 3
 
-Select a student randomly from the class. They must select one of the words from the board, stand up and point to someone else in the class who must then give the meaning of the word. That person then chooses the next person to give a word to.
+Sélectionnez un élève au hasard dans la classe qui doit choisir un des mots du tableau, se lever et désigner quelqu'un d'autre qui doit donner la signification du mot. L'élève désigne alors quelqu'un d'autre et ainsi de suite…
 
-## Homework
+## Devoir
 
-Students should write a sequence of instructions for a task, such as getting dressed for school or their favourite dance moves.
-
+Les élèves doivent écrire une séquence d'instructions pour une tâche, comme s'habiller pour aller à l'école ou leurs mouvements de danse préférés.

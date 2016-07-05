@@ -1,65 +1,67 @@
-# Lesson 1 - How do Computers Think?
+# Leçon 1 - Comment les ordinateurs pensent-ils ?
 
-## Connecting your Raspberry Pi
+## Brancher votre Raspberry Pi
 
-The Raspberry Pi is a bare bones computer. It’s not much use on its own. In order to program sounds with it, we need to connect a number of things to it:
+Le Raspberry Pi est un ordinateur nu. Pour produire du son avec la carte, nous avons besoin de connecter un certains nombre d'éléments :
 
-- **An SD card**. This card contains the programs that can be loaded onto the Raspberry Pi in order for it to do things. You need to slide the card into the slot with the metal pins facing in towards the Raspberry Pi. The label should be visible when it is inserted.
-- **A keyboard**. Plug the keyboard into one of the USB ports. USB stands for Universal Serial Bus. It’s a kind of connector for all sorts of devices. The keyboard will be the main tool we will use to communicate our programs to the Raspberry Pi.
-- **A mouse**. Plug the mouse into one of the other USB ports.
-- **A sound splitter**. This is a cable that will split the audio signal two ways. Plug this into the
-audio jack on the Raspberry Pi.
-- **Headphones**. These will allow you to hear the sound you will produce. Plug these into the sound splitter.
-- **A monitor**. This will allow you to see the program you’re currently creating. Plug the HDMI connector into the Raspberry Pi’s HDMI port. Plug the other end of the HDMI cable into your monitor. You’ll want to make sure you have power to the monitor, that it’s switched on and that it’s set to view what comes in on the HDMI cable (typically the digital option).
-- **A power adaptor**. Plug the power adaptor into a socket and then the small USB connector into the Raspberry Pi. When you turn the socket switch on, you should see the Raspberry Pi flash and text should appear on the monitor.
+-	**Une carte micro-SD**. Cette carte contient les programmes qui peuvent être chargés sur le Raspberry Pi afin qu'il éxécute les choses. Vous devez glisser la carte dans la fente avec les broches métalliques orientés vers le Raspberry Pi. L'étiquette doit être visible quand elle est insérée.
+-	**Un clavier**. Branchez le clavier dans l'un des ports USB. USB signifie Universal Serial Bus.C’est une sorte de connecteur pour toutes sortes d'appareils. Le clavier sera le principal outil que nous allons utiliser pour communiquer nos programmes au Raspberry Pi.
+-	**Une souris**. Branchez la souris sur l'un des autres ports USB.
+-	**Un séparateur/adaptateur doubleur audio**. Ceci est un câble qui va diviser le signal audio en 2. Branchez-le dans la prise audio sur le Raspberry Pi.
+-	**Casque/Ecouteurs**. Ils vous permettront d'entendre le son que vous allez produire. Branchez les dans le séparateur audio.
+-	**Un écran**. Cela vous permettra de voir le programme que vous êtes en train de créer. Branchez le connecteur HDMI dans le port HDMI du Raspberry Pi. Branchez l'autre extrémité du câble HDMI dans votre moniteur.
+-	**Une alimentation**. Branchez l'alimentation dans une prise, puis le petit connecteur USB dans le Raspberry Pi. Lorsque vous allumez l'interrupteur de la prise, vous devriez voir le flash Raspberry Pi et le texte devrait apparaître sur le moniteur.
 
-## Logging In
 
-1. Once the Raspberry Pi has completed booting and the text has stopped whirring past on the screen, you’ll be greeted with a simple prompt for your username. 
-2. Type `pi` and then press **Enter**. 
-3. Next, you’ll be asked for your password. Type `raspberry` and press **Enter** again. Don’t worry that you don’t see the password on the screen as you type it. This is a security feature to stop people snooping over your shoulder and stealing your password. You should now be greeted with a strange text prompt.
+## Connectez-vous
 
-## Starting the Graphical Environment
 
-The strange text prompt that you see is one of the most powerful ways to communicate with a computer. However, it’s not very easy and is full of strange arcane commands, a bit like a magic spell. We can therefore move to a more familiar graphical environment, with windows and menu bars, that may perhaps feel a bit more comfortable. To do this, type `startx` into the text terminal and press **Enter**.
+1.	Une fois que le Raspberry Pi a démarré, vous serez accueilli avec un simple invite de texte pour la connexion.
+2.	Tapez `pi` et appuyez sur **Entrée**.
+3.	Ensuite, vous serez invité à donner votre mot de passe. Tapez `raspberry` et appuyez sur **Entrée** à nouveau.
 
-## Starting the Python 3 Programming Environment
+1. Once the Raspberry Pi has completed booting and the text has stopped whirring past on the screen, you’ll be greeted with a simple prompt for your username.
+2. Type  and then press **Enter**.
+3. Next, you’ll be asked for your password. Type `raspberry` and press **Enter** again. Ne vous inquietez pas que vous ne voyez pas le mot de passe à l'écran en tapant. Il s'agit d'une fonctionnalité de sécurité pour éviter que les gens regardent par-dessus de votre épaule pour récupérer votre mot de passe. Vous devrez vous trouver désormais devant un drôle de'invité de commandes.
 
-Once the graphical environment has started, you can click on the **main menu** at the top of the screen and choose **Python 3** from the **Programming menu**. This will open the Python programming environment known as **IDLE3**.
+## Commencer avec l'interface graphique
+
+Le drôle d'invité de commandes textuelles que vous voyez est l'un des moyens les plus puissants pour communiquer avec un ordinateur. Cependant, il n'est pas très facile d'accès et est rempli de commandes étranges, un peu comme une formule magique. Nous pouvons donc passer à un environnement graphique plus familier, avec des fenêtres et des barres de menus, avec lesquelles on se sentira plus à l'aise. Pour démarrer l'interface, tapez `startx` dans l'invite de texte et appuyez sur **Entrée**.
+
+## Démarrer avec l'environnement de programmation Python 3
+
+Une fois que l'environnement graphique s'est lancée, vous pouvez cliquer sur le **menu principal** en haut de l'écran et choisissez **Python 3** dans le menu de programmation **Programming menu**. Cela va ouvrir l'environnement de programmation Python connu sous le nom **IDLE3**.
 
 ![](images/idle3.png)
 
-## Writing a Simple Program
+## Ecrire un simple programme
 
-You are going to write a program to make a drawing of a shape.
+Vous allez écrire un programme pour créer une forme.
 
-1. Next to the three arrows `>>>` or prompt type: 
+1.	A côté des 3 flèches `>>>` ou de l’invite de commandes, tapez :
 
 	```python
 	import turtle
 	```
-	Then press **Enter**.
-	
-2. At the next `>>>` or prompt type:
+Puis appuyez sur **Entrée**.
+
+2.	A  côté des flèches suivantes `>>>` ou de l’invite de commandes, tapez :
 
 	```python
 	robot = turtle.Turtle()
 	```
-			
-	This command opens the Turtle Graphics window with an arrow in the middle. This is your turtle, called robot, and you can give it instructions to move.
-	
-3. Let's make it look more like a robot turtle by typing:
+Cette ligne de commande ouvrira la fenêtre graphique « Tortue » avec une flèche au milieu. Ceci est votre tortue, votre robot, et vous pouvez lui donner des instructions pour se déplacer.
+
+3.	Faisons-lui ressembler davantage à une tortue robot en tapant :
 
 	```python
 	robot.shape("turtle")
 	```
 
-4. To instruct your robot turtle to move type:
+4.	Pour demander à votre tortue robot de se déplacer, tapez :
 
 	```python
 	robot.forward(100)
 	robot.right(90)
 	```
-	
-	What happens? What more would you need to type to make a square shape?		
-
+A présent, que vous faut-il de plus pour créer une forme carrée ?

@@ -29,18 +29,18 @@ Instructions pour les meilleures pratiques pour le [téléchargement et installa
 ## Forcer le son vers la sortie casque
 
 1. Se rassurer que les casques sont bien branché dans la prise jack du Raspberry Pi.
-2. After booting and logging in you can type the following line on the command line: `amixer cset numid=3 1`.
-3. Alternatively you can load the desktop by typing `startx`, double-clicking on the **Python Games** icon, selecting **Force headphones** and clicking **OK**.
+2. Après démarrage et connexion vous pouvez taper la commande suivante dans le terminal (ligne de commande) : `amixer cset numid=3 1`.
+3. Sinon vous pouvez charger le bureau graphique en tapant `startx`, puis cliquer sur l'icone **Python Games**, selectionner **Force headphones** et cliquer sur **OK**.
 
 	![](lesson-3/images/audio_output.png)
 
-## Making a class set of SD cards
+## Préparation d'un lot de cartes SD pour une classe
 
-Once you have completed the steps above, you can make a copy of your master SD card and then use that to make a class set.
+Une fois les étapes ci-dessus terminées, vous pouvez créer une copie de votre carte SD "maître" et puis l'utiliser pour faire un lot de cartes pour toute la classe.
 
-1. Place your master SD card in a computer or laptop with an SD card reader.
-2. On Windows use [Win disk 32 imager](http://sourceforge.net/projects/win32diskimager/) to make a copy of an SD card. On Mac OSX you can use the `dd` command or a [dd-gui](http://www.gingerbeardman.com/dd-gui/).
-3. Remove the master SD card and keep it safe.
-4. Take a fresh SD card and insert it into your computer or laptop.
-5. Format the SD card then, using your imaging software, select the image and write it to the card.
-6. Repeat the last step for the rest of your cards.
+1. Placer la carte SD "maître" dans un ordinateur ou laptop équipé d'un lecteur de carte mémoire.
+2. Sous Windows utiliser [Win disk 32 imager](http://sourceforge.net/projects/win32diskimager/) pour faire une copie d'une carte SD. Sous Mac OSX vous pouvez utiliser la commande `dd` ou  [dd-gui](http://www.gingerbeardman.com/dd-gui/).
+3. Retirer la carte SD "maître" et la garder précieusement.
+4. Prendre une carte SD vierge et l'insérer dans l'ordinateur ou laptop.
+5. Formatter la carte SD puis, via le logiciel d'écriture d'image, selectionner l'image et l'écrire sur la carte.
+6. Répéter la dernière étape pour les autres cartes.

@@ -20,9 +20,7 @@ Le Raspberry Pi est un ordinateur nu. Pour produire du son avec la carte, nous a
 2.	Tapez `pi` et appuyez sur **Entrée**.
 3.	Ensuite, vous serez invité à donner votre mot de passe. Tapez `raspberry` et appuyez sur **Entrée** à nouveau.
 
-1. Once the Raspberry Pi has completed booting and the text has stopped whirring past on the screen, you’ll be greeted with a simple prompt for your username.
-2. Type  and then press **Enter**.
-3. Next, you’ll be asked for your password. Type `raspberry` and press **Enter** again. Ne vous inquietez pas que vous ne voyez pas le mot de passe à l'écran en tapant. Il s'agit d'une fonctionnalité de sécurité pour éviter que les gens regardent par-dessus de votre épaule pour récupérer votre mot de passe. Vous devrez vous trouver désormais devant un drôle de'invité de commandes.
+	Ne vous inquietez pas que vous ne voyez pas le mot de passe à l'écran en tapant. Il s'agit d'une fonctionnalité de sécurité pour éviter que les gens regardent par-dessus de votre épaule pour récupérer votre mot de passe. Vous devrez vous trouver désormais devant un drôle de'invité de commandes.
 
 ## Commencer avec l'interface graphique
 

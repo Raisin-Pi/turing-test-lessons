@@ -1,106 +1,102 @@
-# Lesson 3 - Make a chatting robot
+# Leçon 3 - Créer un tchat robot
 
 ## Introduction
 
-This lesson will teach students how to take their chatting robot programs, which currently print the conversation to the screen, and turn them into speaking robots where they can hear their robot ask the question. 
+Cette leçon apprendra aux élèves comment utiliser le tchat robot, comment afficher la discussion à l’écran et comment créer des robots qui parlent.
+Vous devrez vous assurer que « espeak » a été téléchargé et installé sur les cartes SD en utilisant  `sudo apt-get install espeak`.
 
-You will need to ensure that 'espeak' has been downloaded and installed on the SD cards using `sudo apt-get install espeak`.
+Les élèves devront avoir accès aux écouteurs/casques pour entendre les sons, vous pourriez aussi avoir besoin d’un haut-parleur pour faire une démonstration en commun.
 
-Students will need access to headphones in order to hear the sounds. You may also require a speaker to demonstrate to the class.
+Enfin, vous devrez vous assurer que le son est géré par les écouteurs plutôt que par le HDMI, en tapant `amixer cset numid=3 1` ou en double-cliquant sur l’icône Python Games et en sélectionnant **Force Headphones**.
 
-Finally, you will need to ensure that sound is being forced to the headphones rather than HDMI by typing `amixer cset numid=3 1`, or by double-clicking on the Python Games icon and selecting **Force Headphones**.
+## Objectifs de l’exercice
 
-## Learning objectives
+- -	Identifier et utiliser des dispositifs d’entrée et de sortie sur un Raspberry Pi
+-	Être capable d’ajouter du code pour tchater avec un programme robot sur le Raspberry Pi en lui faisant lire le texte à haute voix.
+-	Tester et évaluer les programmes de robot crées jusqu’ici
 
-- Identify and use input and output devices on a Raspberry Pi
-- Be able to add code to chatting robot programs on the Raspberry Pi to allow text to be read aloud by it
-- Test and evaluate the chatting robot programs created so far
+## Résultats de l’exercice
 
+### Les élèves seront capables de :
 
-## Learning outcomes
+-	Identifier un  dispositif d’entrée et de sortie sur un ordinateur Raspberry Pi.
+-	Créer du code sur un programme de tchat robot en lui permettant de parler à voix haute.
 
-### All students are able to:
+### La plupart des élèves seront capables de :
 
-- Identify an input and an output device on a Raspberry Pi computer.
-- Add some code to a chatting robot program to allow text to be read aloud by it.
+-	Tester et fournir un retour d’information sur le programme.
 
+### Certains élèves seront capables de :
 
-### Most students are able to:
-
-- Test and provide feedback to their peers on their chatting robot program.
-
-### Some students are able to:
-
-- Devise ways to improve the chatting robot program through evaluation.
+-	Trouver des moyens d’améliorer le tchat robot à travers l’évaluation.
 
 
-## Lesson summary
+## Sommaire de la leçon
 
-- A parts-labelling activity 
-- Adding text-to-speech
-- Improved Python programs
+-	Activité d’identification
+-	Ajout de texte-parole
+-	Amélioration des programmes Python
 
-## Starter
+## Démarrage
 
-Place if possible four sets of the following out on desks, unconnected, or however many you can find of each item from the list: 
+Placer, si possible, 4 ensembles des éléments suivants sur un bureau et non connectés :
 
-- Raspberry Pi 
-- Speaker
-- Headphones 
-- Pi camera (if you have one) 
-- Webcam
-- Keyboard
-- Mouse
-- Monitor 
+-	Raspberry Pi
+-	Haut-parleurs
+-	Ecouteurs/Casques
+-	Module Caméra Pi (si vous en avez un)
+-	Webcam
+-	Clavier
+-	Souris
+-	Moniteur
 
-Allocate students to groups and give each group a different colour of sticky notes or paper. Give students time to label all the components with the following information:
+Affectez les élèves à des groupes et donnez à chaque groupe des feuilles ou du ruban adhésif de couleurs différentes. Puis laissez-leur le temps d’étiqueter tous les composants avec les informations suivantes :
 
-- What it is
-- Whether it is an input, process or output device
-- What it does
+-	Ce que c’est
+-	Si c’est un dispositif d’entrée ou de sortie
+-	Ce à quoi ça sert
 
-After students have labelled the components, ask groups to explain their answers. Identify any which are incorrect or really interesting, and discuss the reasoning with the class. Explain that all computers have inputs and outputs. This is important to note for their chatting robot program, as they want to hear its speech outputting to headphones or a speaker.
+Après que les élèves aient identifié ces composants, demandez aux groupes d’expliquer les réponses données. Identifiez toutes celles qui sont incorrectes ou vraiment intéressantes et discutez-en avec la classe.
+Expliquez que tous les ordinateurs ont des ports d’entrée et de sortie, ce qui a son importance spécialement pour le tchat robot, si on veut écouter les questions/réponses via un casque ou un haut-parleur.
 
 ![](images/audio_output.png)
 
-## Main development
+## Déroulement de l’exercice
 
-1. Ask students to set up their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`. They should then load their chatting robot programs using **IDLE3**.
-	
-2. Using their homework from the previous lesson, instruct students to add more questions to their code using `input` and `print`.
+1.	Demandez aux élèves de mettre en route leur équipement Raspberry Pi et se connecter en utilisant le nom d’utilisateur `pi` et le mot de passe `raspberry`
+Ils devront ensuite charger le programme robot en utilisant **IDLE3**, comme vu dans les précédentes leçons.
 
-3. Explain that now students will need to add some code in order for the Raspberry Pi to speak the words in the program. Students will need to add the following code to the top of their programs:
+2.	En utilisant les devoirs de la leçon précédente, demandez aux élèves d’ajouter d’autres questions à l’aide du code `input` et `print`.
+
+3.	Expliquez maintenant qu’ils auront besoin d’ajouter du code pour que le Raspberry Pi dise à voix haute les mots du programme.
+Pour cela, ils devront entrer le code suivant :
 
 	```python
-	# My Python Program by ...
+	# Mon program en Python par ...
 	import os, time
-	
+
 	def robot(text):
 	    os.system("espeak ' " + text + " ' ")
-	
-	robot("Hello")
+
+	robot("Bonjour")
 	```
-	**Note that the indentation is important; the text editor in IDLE3 should auto-indent for you. Also, the spacing and use of quotation marks is important. The program will not work without them.**    
+	**Notez que l’indentation (tabulations et espaces) est importante ; l’éditeur de texte dans IDLE3 devrait normalement auto-édenter pour vous mais le programme ne pourra pas fonctionner sans cela.**    
 
-4. Ask students to save this as a new file by clicking on **File** and **Save As**, then name it **robot1**. They can then run their programs and they should hear a voice say "hello"!
+4. Demandez aux élèves de sauvegarder ceci en enregistrant un nouveau fichier en cliquant sur **File** et **Save As** et le nommer **robot1**. Ils peuvent ensuite lancer leur programme et ils devraient normalement entendre une voix disant « Bonjour » !
 
-5. Next, explain that instead of printing the questions to the screen, they can now get their robot voice to say them and then reply. 
+5. Ensuite, expliquez-leur qu’au lieu de seulement afficher leurs questions à l’écran, ils peuvent maintenant les faire prononcer par le robot et obtenir des réponses.
 
-	To do this they first need to replace the word `print` with the function name `robot`, then remove the comma `,` and replace it with a plus symbol `+`. Ask students to save and test at this point. Can they explain what happens? Bonus points to anyone who can think of a way to get the robot to ask the questions as well! The answer is to add another line above the input line using the `robot` function, for example:
-	
+	Pour cela, ils auront d’abord besoin de remplacer le mot `print` avec le nom de la fonction robot, puis de supprimer la virgule `,`, et de la remplacer par le symbole plus  `+`. Demandez aux élèves d’enregistrer et de faire un test à ce stade. Peuvent-ils expliquer ce qu’il se passe ? Des points bonus peuvent être attribués à ceux qui trouveront le moyen de faire répondre le robot. La réponse est d’ajouter la ligne ci-dessous en utilisant la fonction `robot`, par exemple :
+
 	```python
 	robot('What is your name')
-	name = input('What is your name: ')
-	robot("Nice to meet you " + name)
+name = input('What is your name: ')
+robot("Nice to meet you " + name)
 	```
+![](images/espeak2.png)
 
-	![](images/espeak2.png)
+## Travail en commun
 
-## Plenary
+Demandez aux élèves d’échanger leur place avec leurs camarades. Ils ont quelques minutes pour tester le programme de leur camarade et suggérer au moins une amélioration en écrivant un commentaire avec le symbole `#`. Les élèves devront ensuite retourner à leur propre programme et appliquer les améliorations.
 
-Direct students to swap seats with a partner. They have a few minutes to test their partner's programs, and suggest at least one improvement by writing a comment using the `#` symbol. Students should then return to their programs and make the suggested improvement.
-
-As an extension task, students could remove one line of code from their partner's program, swap back and see if they can fix the broken code!
-
-
-
+En exercice supplémentaire, les élèves pourraient effacer une ligne du code du programme de leur camarade, échanger leur place et voir s’ils peuvent réparer le code erroné !

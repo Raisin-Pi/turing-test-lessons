@@ -21,8 +21,6 @@ Comment les ordinateurs pensent-ils ? Dans cette leçon, les élèves étudieron
 
 -	Comprendre que Python est un langage de programmation informatique.
 -	Écrire un programme Python simple et expliquer une séquence.
-- Know that Python is a computer programming language.  
-- Write a simple Python program and explain the sequence it is following.
 
 ### Certains élèves seront capables de :
 

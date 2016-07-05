@@ -1,46 +1,46 @@
-# Teacher Setup Instructions
+# Instructions de mise en place pour l'enseignant
 
-For this scheme of work students will need access to:
+Pour ce parcours de travail les élèves devraient avoir accès à :
 
-- A Raspberry Pi
-- A keyboard and mouse connected to the RPi
-- A monitor connected to the RPi
-- Latest NOOBS SD card with Raspbian installed (instructions below)
-- espeak downloaded and installed on each SD card (instructions below)
+- Un Raspberry Pi
+- Un clavier et souris connecté au RPi
+- Un écran connecté au RPi
+- Carte SD avec la dernière version de NOOBS et avec l'OS Raspbian d'installé (instructions ci-dessous)
+- espeak téléchargé et installé sur chaque Carte SD (instructions ci-dessous)
 
-For lesson 3 students will need this additional equipment:
+Pour la leçon 3, les élèves auront besoin du matériel supplémentaire suivant :
 
-- A headphone splitter connected to the RPi audio jack, if students are working in pairs on one RPi.
-- A pair of headphones connected to the splitter or RPi per student.
-
-
-## Downloading and installing NOOBS
-
-Instructions for best practice on [downloading and installing NOOBS can be read here](http://www.raspberrypi.org/help/noobs-setup/).
+- Un adaptateur doubleur de sortie audio connecté à la prise jack du RPi, si les élèves sont en train de travailler en binome sur un RPi.
+- Un casque/écouteurs branchés sur l'adaptateur ou RPi par élève.
 
 
-## Downloading and installing espeak
+## Téléchargement et installation NOOBS
 
-1. After booting, log in using the default login `pi` and password `raspberry`.
-2. On the command line type: `sudo apt-get install espeak`.
-3. Press `Y` on the keyboard when prompted.
+Instructions pour les meilleures pratiques pour le [téléchargement et installation de NOOBS peut être lu ici](http://www.raspberrypi.org/help/noobs-setup/).
 
 
-## Forcing sound to headphones
+## Téléchargement et installation d'Espeak
 
-1. Ensure that your headphones are plugged into the sound jack port on the Raspberry Pi.
+1. Après avoir démarré, se connecter avec le login par défaut `pi` et password `raspberry`.
+2. Via le terminal en ligne de commande taper : `sudo apt-get install espeak`.
+3. Appuyer sur `Y` (ou `O` si en français) au clavier quand demandé.
+
+
+## Forcer le son vers la sortie casque
+
+1. Se rassurer que les casques sont bien branché dans la prise jack du Raspberry Pi.
 2. After booting and logging in you can type the following line on the command line: `amixer cset numid=3 1`.
 3. Alternatively you can load the desktop by typing `startx`, double-clicking on the **Python Games** icon, selecting **Force headphones** and clicking **OK**.
 
 	![](lesson-3/images/audio_output.png)
-	
+
 ## Making a class set of SD cards
 
 Once you have completed the steps above, you can make a copy of your master SD card and then use that to make a class set.
 
-1. Place your master SD card in a computer or laptop with an SD card reader. 
+1. Place your master SD card in a computer or laptop with an SD card reader.
 2. On Windows use [Win disk 32 imager](http://sourceforge.net/projects/win32diskimager/) to make a copy of an SD card. On Mac OSX you can use the `dd` command or a [dd-gui](http://www.gingerbeardman.com/dd-gui/).
 3. Remove the master SD card and keep it safe.
-4. Take a fresh SD card and insert it into your computer or laptop. 
+4. Take a fresh SD card and insert it into your computer or laptop.
 5. Format the SD card then, using your imaging software, select the image and write it to the card.
-6. Repeat the last step for the rest of your cards. 
+6. Repeat the last step for the rest of your cards.

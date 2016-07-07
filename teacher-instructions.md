@@ -21,7 +21,7 @@ Instructions pour les meilleures pratiques pour le [téléchargement et installa
 
 ## Téléchargement et installation d'Espeak
 
-1. Après avoir démarré, se connecter avec le login par défaut `pi` et password `raspberry`.
+1. Après avoir démarré, se connecter avec le login par défaut `pi` et le mot de passe `raspberry`.
 2. Via le terminal en ligne de commande taper : `sudo apt-get install espeak`.
 3. Appuyer sur `Y` (ou `O` si en français) au clavier quand demandé.
 

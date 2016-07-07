@@ -20,7 +20,7 @@ Le Raspberry Pi est un ordinateur nu. Pour produire du son avec la carte, nous a
 2.	Tapez `pi` et appuyez sur **Entrée**.
 3.	Ensuite, vous serez invité à donner votre mot de passe. Tapez `raspberry` et appuyez sur **Entrée** à nouveau.
 
-	Ne vous inquietez pas que vous ne voyez pas le mot de passe à l'écran en tapant. Il s'agit d'une fonctionnalité de sécurité pour éviter que les gens regardent par-dessus de votre épaule pour récupérer votre mot de passe. Vous devrez vous trouver désormais devant un drôle de'invité de commandes.
+	Ne vous inquietez pas de ne pas voir le mot de passe à l'écran en tapant. Il s'agit d'une fonctionnalité de sécurité pour éviter que les gens regardent par-dessus de votre épaule pour récupérer votre mot de passe. Vous devrez vous trouver désormais devant un drôle de'invité de commandes.
 
 ## Commencer avec l'interface graphique
 
@@ -50,7 +50,7 @@ Puis appuyez sur **Entrée**.
 	```
 Cette ligne de commande ouvrira la fenêtre graphique « Tortue » avec une flèche au milieu. Ceci est votre tortue, votre robot, et vous pouvez lui donner des instructions pour se déplacer.
 
-3.	Faisons-lui ressembler davantage à une tortue robot en tapant :
+3.	Faisons-le ressembler davantage à une tortue robot en tapant :
 
 	```python
 	robot.shape("turtle")

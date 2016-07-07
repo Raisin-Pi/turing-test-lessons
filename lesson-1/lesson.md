@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Comment les ordinateurs pensent-ils ? Dans cette leçon, les élèves étudieront de quelle manière les ordinateurs et les robots suivent une séquence d'instructions pour accomplir une tâche. Cette leçon pousse principalement les élèves à découvrir le Raspberry Pi, se connecter, accéder à Python 3 ou IDLE3, et à taper une petite séquence d'instructions pour créer une forme.
+Comment les ordinateurs pensent-ils ? Dans cette leçon, les élèves étudieront de quelle manière les ordinateurs et les robots suivent une séquence d'instructions pour accomplir une tâche. Cette leçon incite principalement les élèves à découvrir le Raspberry Pi, se connecter, accéder à Python 3 ou IDLE3, et à taper une petite séquence d'instructions pour créer une forme.
 
 ## Objectifs de l'exercice
 

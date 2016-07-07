@@ -11,7 +11,7 @@ Enfin, vous devrez vous assurer que le son est géré par les écouteurs plutôt
 
 ## Objectifs de l’exercice
 
-- -	Identifier et utiliser des dispositifs d’entrée et de sortie sur un Raspberry Pi
+- 	Identifier et utiliser des dispositifs d’entrée et de sortie sur un Raspberry Pi
 -	Être capable d’ajouter du code pour tchater avec un programme robot sur le Raspberry Pi en lui faisant lire le texte à haute voix.
 -	Tester et évaluer les programmes de robot crées jusqu’ici
 

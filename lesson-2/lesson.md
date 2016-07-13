@@ -34,7 +34,7 @@ Basé sur la leçon 1 utilisant IDLE3, cette leçon vous introduira à la progra
 
 ## Démarrage
 
-Dirigez les élèves vers un site internet contenant un tchat robot, comme [Elbot](http://www.elbot.com/). Vous pouvez aussi utiliser Siri sur un appareil Apple.
+Dirigez les élèves vers un site internet contenant un tchat robot, comme [Elbot](http://www.elbot.com/) pour pratiquer l'anglais ou [Existor](http://www.existor.com/en/) et [cleverbot](http://www.cleverbot.com/) pour parler en français. Vous pouvez aussi utiliser Siri sur un appareil Apple.
 
 Les élèves peuvent poser des questions au tchat robot. Demandez-leur de noter toute réponse ne correspondant pas à la question posée. Après quelques minutes d'exercice, rassemblez-les autour d'une discussion où ils pourront donner leurs avis et faire des commentaires. Le professeur devra prendre note des quelques questions qui ont pu rendre confus le tchat robot.
 

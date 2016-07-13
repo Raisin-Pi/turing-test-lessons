@@ -14,7 +14,7 @@ Comment les ordinateurs pensent-ils ? Dans cette leçon, les élèves étudieron
 
 ### Les élèves seront capables de :
 
-- Savoir que les ordinateurs exécutent des programmes qui sont des séquences d'instructions pour réaliser quelquchose.  
+- Savoir que les ordinateurs exécutent des programmes qui sont des séquences d'instructions pour réaliser quelque chose.  
 - Ecrire un programme simple.
 
 ### La plupart des élèves seront capables de :

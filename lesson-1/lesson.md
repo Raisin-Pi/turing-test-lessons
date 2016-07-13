@@ -74,6 +74,6 @@ Ecrivez la liste suivante de mots sur le tableau :
 
 Sélectionnez un élève au hasard dans la classe qui doit choisir un des mots du tableau, se lever et désigner quelqu'un d'autre qui doit donner la signification du mot. L'élève désigne alors quelqu'un d'autre et ainsi de suite…
 
-## Devoir
+## Pour aller plus loin
 
-Les élèves doivent écrire une séquence d'instructions pour une tâche, comme s'habiller pour aller à l'école ou leurs mouvements de danse préférés.
+Les élèves peuvent écrire une séquence d'instructions pour une tâche, comme s'habiller pour aller à l'école ou leurs mouvements de danse préférés.

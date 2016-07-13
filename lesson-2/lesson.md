@@ -16,12 +16,12 @@ Basé sur la leçon 1 utilisant IDLE3, cette leçon vous introduira à la progra
 
 ### Les élèves seront capables de :
 
--	Être capable d’écrire un simple programme Python et vérifier qu’il fonctionne.
+-	Ecrire un simple programme Python et vérifier qu’il fonctionne.
 
 ### La plupart des élèves seront capables de :
 
 -	Comprendre que Python est un langage de programmation informatique.
--	Être capable d'écrire un programme Python simple et savoir expliquer sa séquence.
+-	Ecrire un programme Python simple et savoir expliquer sa séquence.
 
 ### Certains élèves seront capables de :
 

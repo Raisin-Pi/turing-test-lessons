@@ -50,7 +50,7 @@ Expliquez qu'un ordinateur fonctionne en exécutant des instructions l'une aprè
 
 3.	Demander aux élèves de mettre en place leur équipement Raspberry Pi, de l'allumer et de se connecter à leur Pi en utilisant le nom d'utilisateur `pi` et le mot de passe `raspberry`.
 
-	**A noter : les élèves ne verront pas le texte quand ils tapent le mot de passe mais vous pouvez les assurer que ça marche. Pourquoi, pensent-ils, que c'est ainsi ? Incdice : qu'est ce qu'il peut arriver si quelqu'un regardait au-dessus de leur épaule ?**
+	**A noter : les élèves ne verront pas le texte quand ils tapent le mot de passe mais vous pouvez les assurer que ça marche. Pourquoi, pensent-ils, que c'est ainsi ? Astuce : qu'est ce qu'il peut arriver si quelqu'un regardait au-dessus de leur épaule ?**
 
 4.	Ensuite, les élèves doivent charger l'environnement graphique en tapant `startx`. Une fois que le bureau est chargé, montrer aux élèves comment ouvrir **Python 3** ou **IDLE3** en cliquant sur le menu principal **Main Menu**, puis la programmation **Programming** et la sélection de **Python 3**.
 

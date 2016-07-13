@@ -103,6 +103,6 @@ Ensuite, demandez aux élèves de sauvegarder leur travail et d’éteindre le R
 Demandez aux élèves de choisir 3 nouveaux mots qu’ils ont appris durant la ou les dernières leçons puis de les définir. Ensuite, demandez-leur d'écrire un paragraphe pour chacun des mots, ou en utilisant les 3 à la fois.
 
 
-## Devoirs
+## Pour aller plus loin
 
-Les élèves devront réfléchir à 5 questions qu’ils souhaiteraient poser au tchat robot à la prochaine leçon.
+Les élèves peuvent réfléchir à 5 questions qu’ils souhaiteraient poser au tchat robot à la prochaine leçon.

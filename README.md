@@ -2,15 +2,15 @@
 
 ![](cover.png)
 
-Ce schéma de travail a été conçu comme une introduction à la programmation, basée sur le texte et en utilisant Python sur le Raspberry Pi. À la fin de toutes les leçons, les élèves auront créés un tchat robot interactif et auront été initiés à la notion d'informatique de l'intelligence artificielle.
+Ce schéma de travail a été conçu comme une introduction à la programmation, basée sur le texte et en utilisant Python sur le Raspberry Pi. À la fin de toutes les leçons, les enfants auront créés un tchat robot interactif et auront été initiés à la notion d'informatique de l'intelligence artificielle.
 
 Ce schéma de travail cible spécifiquement les enfants de 7 à 11 ans, bien que ces leçons puissent être utilisées de manière plus large pour les enfants de 11 à 14 ans.
 
 
-## Ce que les élèves apprendront :
+## Ce que les enfants apprendront :
 
 
-Grâce à ce schéma de travail, les élèves auront appris :
+Grâce à ce schéma de travail, les enfants auront appris :
 
 - A utiliser les fonctions du Raspberry Pi : comment l'installer et exploiter ses principales caractéristiques
 - A programmer un Raspberry Pi pour qu'il agisse comme un tchat robot

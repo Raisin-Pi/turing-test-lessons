@@ -66,4 +66,4 @@ Sauf spécification expresse, tout le contenu de ce répertoire est fourni sous 
 
 ***Le Test de Turing*** de la [Fondation Raspberry Pi](http://www.raspberrypi.org) est fourni sous la licence [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
-D'après un travail paru sur https://github.com/raspberrypilearning/turing-test-lessons
+D'après un travail paru sur https://github.com/raspberrypilearning/turing-test-lessons fait par Alan McCullagh pour le projet [D-Clics numériques](http://d-clicsnumeriques.org/) 

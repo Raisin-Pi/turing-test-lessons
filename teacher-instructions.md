@@ -10,7 +10,7 @@ Pour ce parcours de travail les élèves devraient avoir accès à :
 
 Pour la leçon 3, les élèves auront besoin du matériel supplémentaire suivant :
 
-- Un adaptateur doubleur de sortie audio connecté à la prise jack du RPi, si les élèves sont en train de travailler en binome sur un RPi.
+- Un adaptateur doubleur de sortie audio connecté à la prise jack du RPi, si les élèves sont en train de travailler en binôme sur un RPi.
 - Un casque/écouteurs branchés sur l'adaptateur ou RPi par élève.
 
 
@@ -30,7 +30,7 @@ Instructions pour les meilleures pratiques pour le [téléchargement et installa
 
 1. Se rassurer que les casques sont bien branché dans la prise jack du Raspberry Pi.
 2. Après démarrage et connexion vous pouvez taper la commande suivante dans le terminal (ligne de commande) : `amixer cset numid=3 1`.
-3. Sinon vous pouvez charger le bureau graphique en tapant `startx`, puis cliquer sur l'icone **Python Games**, selectionner **Force headphones** et cliquer sur **OK**.
+3. Sinon vous pouvez charger le bureau graphique en tapant `startx`, puis cliquer sur l'icône **Python Games**, sélectionnez **Force headphones** et cliquez sur **OK**.
 
 	![](lesson-3/images/audio_output.png)
 
@@ -38,9 +38,9 @@ Instructions pour les meilleures pratiques pour le [téléchargement et installa
 
 Une fois les étapes ci-dessus terminées, vous pouvez créer une copie de votre carte SD "maître" et puis l'utiliser pour faire un lot de cartes pour toute la classe.
 
-1. Placer la carte SD "maître" dans un ordinateur ou laptop équipé d'un lecteur de carte mémoire.
-2. Sous Windows utiliser [Win disk 32 imager](http://sourceforge.net/projects/win32diskimager/) pour faire une copie d'une carte SD. Sous Mac OSX vous pouvez utiliser la commande `dd` ou  [dd-gui](http://www.gingerbeardman.com/dd-gui/).
-3. Retirer la carte SD "maître" et la garder précieusement.
+1. Placez la carte SD "maître" dans un ordinateur ou laptop équipé d'un lecteur de carte mémoire.
+2. Sous Windows utilisez [Win disk 32 imager](http://sourceforge.net/projects/win32diskimager/) pour faire une copie d'une carte SD. Sous Mac OSX vous pouvez utiliser la commande `dd` ou  [dd-gui](http://www.gingerbeardman.com/dd-gui/).
+3. Retirez la carte SD "maître" et la garder précieusement.
 4. Prendre une carte SD vierge et l'insérer dans l'ordinateur ou laptop.
-5. Formatter la carte SD puis, via le logiciel d'écriture d'image, selectionner l'image et l'écrire sur la carte.
-6. Répéter la dernière étape pour les autres cartes.
+5. Formatez la carte SD puis, via le logiciel d'écriture d'image, sélectionnez l'image et graver-là sur la carte.
+6. Répétez la dernière étape pour les autres cartes.
